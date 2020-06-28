@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Geometric.MainPage">
+    <AbsoluteLayout>
+        <AbsoluteLayout x:Name="backgroundLayout"></AbsoluteLayout>
+        <Frame CornerRadius="10" BackgroundColor="White" Opacity="0.7" Padding="20" Margin="20, 50, 20, 0">
+            <StackLayout>
+                <Label Text="Colorful Geometric Background" FontAttributes="Bold" />
+                <Label Text="This background is generated using Xamarin.Forms Shapes and uses no images. Created by Marcofolio.net and inspired by SpoonGraphics." />
+            </StackLayout>
+        </Frame>
+    </AbsoluteLayout>
+</ContentPage>
